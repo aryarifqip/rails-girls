@@ -2,10 +2,14 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
-
+# Use for make thumbnail
 gem 'carrierwave'
+# Use for make thumbnail
 gem 'mini_magick', '4.8.0'
+# Use for make authentication
 gem 'devise'
+# Use for make Gravatar
+gem 'gravtastic'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
